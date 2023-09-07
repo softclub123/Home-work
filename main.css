@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all .navbar {
+  border-bottom: 1px solid lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-around;
+  display: flex;
+}
+.all .navbar .logo {
+  width: 20%;
+}
+.all .navbar .text {
+  align-items: center;
+  width: 30%;
+  justify-content: space-between;
+  display: flex;
+}
+.all .navbar .text h1 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #7f7e83;
+}
+.all .navbar .text button {
+  color: #57b18a;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+.all ul {
+  padding-top: 10px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 85%;
+  border-bottom: 1px solid lightgray;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+}
+.all ul .li {
+  padding-bottom: 10px;
+  border-bottom: 4px solid rgb(3, 116, 3);
+  border-radius: 5px;
+}
+.all ul li {
+  color: #7f7e83;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.all .level1 .flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.all .level1 .flex .left {
+  width: 50%;
+}
+.all .level1 .flex .left h1 {
+  font-size: 70px;
+  color: #3f3e42;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+.all .level1 .flex .right {
+  width: 45%;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+.all .level1 .lev1 {
+  position: relative;
+  left: 60px;
+  top: -80px;
+}
+.all .level2 {
+  padding-left: 7%;
+}
+.all .level2 h1 {
+  font-size: 45px;
+  color: #3f3e42;
+}
+.all .level2 .flex1 {
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+}
+.all .level2 .flex1 div {
+  margin-top: 50px;
+  border-radius: 20px;
+  height: 43vh;
+  width: 25%;
+  padding: 20px;
+}
+.all .level2 .flex1 div h2 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.all .level2 .flex1 div img {
+  padding-top: 20px;
+  position: relative;
+  top: 3px;
+  left: -20px;
+}
+.all .level2 .flex1 .first {
+  background-color: #fff2cb;
+}
+.all .level2 .flex1 .first img {
+  position: relative;
+  top: 35px;
+}
+.all .level2 .flex1 .second {
+  background-color: #ddefe8;
+}
+.all .level2 .flex1 .third {
+  background-color: #ffece5;
+}
+.all .level2 .end {
+  background-color: #e6e6fc;
+  margin-top: 30px;
+  width: 87%;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+}
+.all .level2 .end .left {
+  width: 45%;
+}
+.all .level2 .end .left h1 {
+  padding: 20px;
+  padding-top: 50px;
+  font-size: 35px;
+  color: #3f3e42;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.all .level2 .end .left p {
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: #57585f;
+  width: 80%;
+  padding-left: 20px;
+}
+.all .level2 .end .left button {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 15px 50px;
+  border: none;
+  background-color: #57b18a;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
+.all .level2 .end .right img {
+  position: relative;
+  top: 25px;
+}
+.all .level3 {
+  padding-top: 100px;
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: rgb(255, 250, 255);
+}
+.all .level3 .flex5 {
+  justify-content: space-between;
+  display: flex;
+}
+.all .level3 h1 {
+  font-size: 44px;
+}
+.all .level3 .first {
+  padding: 20px;
+  background-color: #ffffff;
+  width: 25%;
+  margin-top: 50px;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 10px;
+}
+.all .level3 .first h3 {
+  text-align: end;
+  position: relative;
+  top: -80px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6f6fc4;
+}
+.all .level3 .first h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: -50px;
+}
+.all .level3 .first button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  border: none;
+  color: #57b18a;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px gray;
+}
+.all .level3 .second h3 {
+  color: #57b18a;
+}
+.all .level3 .third h3 {
+  color: #ffa27d;
+}
+.all .level4 {
+  display: flex;
+  background-color: #fff2cb;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+.all .level4 .text {
+  width: 45%;
+}
+.all .level4 .text h1 {
+  margin-top: 50px;
+  font-size: 44px;
+}
+.all .level4 .text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  width: 80%;
+  margin-top: 20px;
+}
+.all .level4 .img img {
+  position: relative;
+  left: 120px;
+  top: 30px;
+}
+.all .level5 {
+  display: flex;
+  padding-left: 7%;
+  padding-right: 7%;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px gray;
+  width: 80%;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+.all .level5 div {
+  width: 22%;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+.all .level5 div p {
+  padding-top: 20px;
+}
+.all .level5 .oxir {
+  border: none;
+}
+.all .level6 {
+  width: 86%;
+  margin: auto;
+  margin-top: 100px;
+}
+.all .level6 img {
+  width: 100%;
+}
+.all .footer {
+  margin-top: 100px;
+  display: flex;
+  background-color: #eef7f3;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 50px;
+}
+.all .footer .text {
+  width: 45%;
+}
+.all .footer .text h1 {
+  margin-top: 50px;
+  font-size: 44px;
+}
+.all .footer .text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  width: 80%;
+  margin-top: 20px;
+}
+.all .footer .img img {
+  position: relative;
+  left: 120px;
+  top: 30px;
+}
+.all .footer2 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.all .footer2 .block {
+  padding-left: 20px;
+  padding-top: 50px;
+  width: 22%;
+}
+.all .footer2 .block p {
+  padding-top: 15px;
+  font-size: 18px;
+}
+.all .footer2 .block1 p {
+  padding-top: 15px;
+  font-size: 18px;
+}
+.all .footer2 .block1 button {
+  padding: 10px 30px;
+  margin-top: 20px;
+  border: none;
+  color: #57b18a;
+  font-weight: 600;
+  font-size: 18px;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 5px;
+}
+.all .footer3 {
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  justify-content: space-around;
+}
+.all .footer3 div {
+  width: 45%;
+}
+.all .footer3 p {
+  padding-top: 20px;
+  color: #3f3e42;
+  font-size: 18px;
+  line-height: 28px;
+}
+.all .footer4 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.all .footer4 P {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7f7e83;
+}/*# sourceMappingURL=main.css.map */
